@@ -1,0 +1,17 @@
+// C++ code
+//
+#include <Servo.h>
+Servo q;
+void setup()
+{
+ q.attach(8);
+  
+}
+
+void loop()
+{
+  q.Write(0);
+  delay(1000);
+  q.Write(180);
+  delay(1000);
+}
